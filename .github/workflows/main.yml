@@ -34,7 +34,7 @@ jobs:
       - name: Extract Android project
         run: |
           unzip MigzXitsAndroid_project.zip -d extracted
-          cp -r extracted/MigzXitsAndroid/. .
+          cp -r extracted/
 
       - name: Build APK
         run: gradle assembleDebug
